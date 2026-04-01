@@ -47,7 +47,7 @@ function generateResult(){
 
   const preview=document.getElementById("aiPreview");
 
-  preview.src="assets/ai-"+detectedStyle+".jpg";
+  preview.src="ai-"+detectedStyle+".jpg";
 }
   
   function displayProducts(style){
