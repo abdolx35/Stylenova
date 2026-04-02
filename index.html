@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylenova — Smart Style AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LANDING PAGE -->
+<div id="landingPage">
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <img src="assets/logostylenova.png" alt="Stylenova" class="nav-logo-img" onerror="this.style.display='none'">
+      <span class="nav-logo-text">STYLENOVA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#how">How it Works</a></li>
+      <li><a href="#sdg">SDGs</a></li>
+      <li><a href="#team">Team</a></li>
+    </ul>
+    <button class="nav-cta" onclick="launchApp()">Try Demo</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-tag">AI-Powered Fashion Assistant</div>
+      <h1 class="hero-title">
+        Your Style,<br>
+        <em class="hero-accent">Redefined.</em>
+      </h1>
+      <p class="hero-sub">Stylenova transforms any clothing section into an intelligent, personalized shopping experience — powered by real-time AI style analysis.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="launchApp()">Start Experience</button>
+        <a href="#how" class="btn-ghost">See How It Works</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">3–5</span>
+          <span class="stat-label">Outfits Suggested</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Style Profiles</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <span class="stat-num">Live</span>
+          <span class="stat-label">AI Analysis</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card hc-main">
+        <div class="hc-tag">Casual</div>
+        <div class="hc-colors">
+          <span style="background:#C9A96E"></span>
+          <span style="background:#4A4A4A"></span>
+          <span style="background:#F0EDE8"></span>
+        </div>
+        <p class="hc-label">Color Palette Detected</p>
+      </div>
+      <div class="hero-card hc-float hc-f1">
+        <div class="hc-icon">★</div>
+        <p>Street Style Match</p>
+      </div>
+      <div class="hero-card hc-float hc-f2">
+        <div class="hc-icon">◈</div>
+        <p>Moodboard Ready</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / PROBLEMS -->
+  <section class="lp-section" id="about">
+    <div class="lp-label">The Problem</div>
+    <h2 class="lp-title">Shopping Shouldn't Be Overwhelming</h2>
+    <div class="problems-grid">
+      <div class="problem-card">
+        <div class="prob-icon">?</div>
+        <h3>Style Confusion</h3>
+        <p>Customers struggle to build outfits that truly match their personality and aesthetic</p>
+      </div>
+      <div class="problem-card">
+        <div class="prob-icon">⌛</div>
+        <h3>Wasted Time</h3>
+        <p>Hours lost wandering clothing sections without direction or helpful guidance</p>
+      </div>
+      <div class="problem-card">
+        <div class="prob-icon">✗</div>
+        <h3>No Personalization</h3>
+        <p>Traditional stores offer zero customized recommendations for each individual shopper</p>
+      </div>
+      <div class="problem-card">
+        <div class="prob-icon">☁</div>
+        <h3>Passive Experience</h3>
+        <p>Shopping feels like a chore, not an enjoyable, interactive and rewarding journey</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="lp-section lp-dark" id="how">
+    <div class="lp-label light">The Solution</div>
+    <h2 class="lp-title light">How Stylenova Works</h2>
+    <div class="steps-row">
+      <div class="step-item">
+        <div class="step-num">01</div>
+        <h3>Camera Scan</h3>
+        <p>The in-store kiosk scans your current outfit via an integrated smart camera</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step-item">
+        <div class="step-num">02</div>
+        <h3>AI Analysis</h3>
+        <p>AI detects your color palette, dominant style and personal aesthetic signature</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step-item">
+        <div class="step-num">03</div>
+        <h3>Moodboard</h3>
+        <p>A personalized moodboard is instantly generated reflecting your unique taste</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step-item">
+        <div class="step-num">04</div>
+        <h3>Product Match</h3>
+        <p>3–5 perfectly matched items from the store inventory are displayed with prices</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SDGs -->
+  <section class="lp-section" id="sdg">
+    <div class="lp-label">Sustainability</div>
+    <h2 class="lp-title">Aligned with Global Goals</h2>
+    <div class="sdg-grid">
+      <div class="sdg-card c8">
+        <div class="sdg-num">8</div>
+        <h3>Decent Work & Growth</h3>
+        <p>Boosts store sales and supports tech-driven retail employment</p>
+      </div>
+      <div class="sdg-card c9">
+        <div class="sdg-num">9</div>
+        <h3>Industry & Innovation</h3>
+        <p>Pioneers AI-powered smart retail innovation in Egypt</p>
+      </div>
+      <div class="sdg-card c12">
+        <div class="sdg-num">12</div>
+        <h3>Responsible Consumption</h3>
+        <p>Reduces returns and fashion waste through smarter purchase decisions</p>
+      </div>
+      <div class="sdg-card c17">
+        <div class="sdg-num">17</div>
+        <h3>Partnerships</h3>
+        <p>Connects brands, retailers and technology for shared growth</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="lp-section lp-dark" id="team">
+    <div class="lp-label light">The Builders</div>
+    <h2 class="lp-title light">Mindset Team</h2>
+    <p class="team-school">Fath Allah International School for Applied Technology · Modern Commerce · 2026</p>
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="assets/team1.jpg" class="team-img">
+        <p class="team-name">Abdulrahman</p>
+        <p class="team-role">Designer & Developer</p>
+      </div>
+    
+      <div class="team-card">
+        <img src="assets/team2.jpg" class="team-img">
+        <p class="team-name">Ibrahim</p>
+        <p class="team-role">Data Analysis</p>
+      </div>
+    
+      <div class="team-card">
+        <img src="assets/team3.jpg" class="team-img">
+        <p class="team-name">Mohamed</p>
+        <p class="team-role">Communicator</p>
+      </div>
+    
+      <div class="team-card">
+        <img src="assets/team4.jpg" class="team-img">
+        <p class="team-name">Mariam</p>
+        <p class="team-role">Documenter</p>
+      </div>
+    
+      <div class="team-card">
+        <img src="assets/team5.jpg" class="team-img">
+        <p class="team-name">Shahd</p>
+        <p class="team-role">Coordinator</p>
+      </div>
+    <button class="btn-primary" onclick="launchApp()" style="margin-top:40px;">Try the Demo</button>
+  </section>
+
+  <footer class="lp-footer">
+    <span class="footer-brand">STYLENOVA</span>
+    <p>© 2026 Mindset Team · Fath Allah International School · All Rights Reserved</p>
+  </footer>
+
+</div><!-- /landingPage -->
+
+
+<!-- APP PROTOTYPE -->
+<div id="appPrototype" style="display:none;">
+
+  <div class="app-topbar">
+    <button class="back-btn" onclick="backToLanding()">← Home</button>
+    <span class="app-topbar-logo">STYLENOVA</span>
+    <span class="app-topbar-right">AI Kiosk</span>
+  </div>
+
+  <!-- Screen 1 -->
+  <section id="screen1" class="screen active">
+    <div class="a-card welcome-card">
+      <img src="assets/logostylenova.png" class="app-logo" onerror="this.style.display='none'">
+      <div class="welcome-pill">Smart Fitting Experience</div>
+      <h2 class="a-title">Discover Your Style</h2>
+      <p class="a-sub">Our AI scans your current outfit and recommends perfect pieces from this store</p>
+      <button class="a-btn" onclick="goTo(2)">Start Experience →</button>
+    </div>
+  </section>
+
+  <!-- Screen 2 -->
+  <section id="screen2" class="screen">
+    <div class="a-card">
+      <div class="a-step">Step 1 / 3 — Scan</div>
+      <h2 class="a-title">Smart Scan</h2>
+      <p class="a-sub">Face the camera and stand still for a full outfit analysis</p>
+      <div class="video-wrap">
+        <video id="video" autoplay playsinline></video>
+        <div class="scan-frame-wrap">
+          <div class="scan-corner tl"></div>
+          <div class="scan-corner tr"></div>
+          <div class="scan-corner bl"></div>
+          <div class="scan-corner br"></div>
+          <div class="scan-beam" id="scanBeam"></div>
+        </div>
+        <p id="camStatus" class="cam-status">Camera not active</p>
+      </div>
+      <div class="a-btn-row">
+        <button class="a-btn-ghost" onclick="startCamera()">Enable Camera</button>
+        <button class="a-btn" onclick="analyze()">Analyze →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screen 3 -->
+  <section id="screen3" class="screen">
+    <div class="a-card loading-card">
+      <div class="rings-wrap">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="ring r3"></div>
+        <span class="ring-label">AI</span>
+      </div>
+      <h2 class="a-title">Analyzing Outfit...</h2>
+      <div class="load-steps">
+        <div class="ls" id="ls1">Detecting color palette...</div>
+        <div class="ls" id="ls2">Identifying style signature...</div>
+        <div class="ls" id="ls3">Building your moodboard...</div>
+        <div class="ls" id="ls4">Matching store products...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screen 4: Moodboard -->
+  <section id="screen4" class="screen">
+    <div class="a-card">
+      <div class="a-step">Step 2 / 3 — Your Style DNA</div>
+      <h2 class="a-title" id="moodTitle">Your Style</h2>
+      <div id="moodboard" class="moodboard-grid"></div>
+      <div id="styleTags" class="style-tags"></div>
+      <button class="a-btn full" onclick="goToProducts()">See Recommended Products →</button>
+    </div>
+  </section>
+
+  <!-- Screen 5: Products -->
+  <section id="screen5" class="screen">
+    <div class="a-card">
+      <div class="a-step">Step 3 / 3 — Products For You</div>
+      <div id="resultBadge" class="result-badge"></div>
+      <p id="aiMessage" class="ai-msg"></p>
+      <div id="products" class="products-grid"></div>
+      <button class="a-btn-ghost full" onclick="resetApp()">↺ Try Again</button>
+    </div>
+  </section>
+
+</div><!-- /appPrototype -->
+
+<script src="script.js"></script>
+</body>
+</html>
