@@ -18,9 +18,9 @@ const stylesData = {
     tags: ["Oversized", "Relaxed Fit", "Earth Tones", "Minimalist", "Everyday"],
     message: "Your style reads effortless and comfortable — here are pieces that match your energy.",
     products: [
-      { name: "Oversized Cotton T-Shirt", price: "350 EGP", img: "assets/casual1.jpg" },
-      { name: "Baggy Cargo Jeans", price: "700 EGP", img: "assets/casual2.jpg" },
-      { name: "White Low-Top Sneakers", price: "1,200 EGP", img: "assets/casual3.jpg" }
+      { name: "Oversized Cotton T-Shirt", price: "350 EGP", img: "casual1.jpg" },
+      { name: "Baggy Cargo Jeans", price: "700 EGP", img: "casual2.jpg" },
+      { name: "White Low-Top Sneakers", price: "1,200 EGP", img: "casual3.jpg" }
     ]
   },
   sporty: {
@@ -38,9 +38,9 @@ const stylesData = {
     tags: ["Athletic", "Performance", "Bold Colors", "Functional", "Dynamic"],
     message: "High energy, high performance — these picks were built for your active lifestyle.",
     products: [
-      { name: "Dry-Fit Sport T-Shirt", price: "400 EGP", img: "assets/sporty1.jpg" },
-      { name: "Tapered Training Pants", price: "650 EGP", img: "assets/sporty2.jpg" },
-      { name: "Running Sneakers Pro", price: "1,500 EGP", img: "assets/sporty3.jpg" }
+      { name: "Dry-Fit Sport T-Shirt", price: "400 EGP", img: "sporty1.jpg" },
+      { name: "Tapered Training Pants", price: "650 EGP", img: "sporty2.jpg" },
+      { name: "Running Sneakers Pro", price: "1,500 EGP", img: "sporty3.jpg" }
     ]
   },
   classic: {
@@ -58,9 +58,9 @@ const stylesData = {
     tags: ["Tailored", "Sophisticated", "Timeless", "Formal", "Sharp"],
     message: "You have an eye for elegance — these refined pieces will complete your polished look.",
     products: [
-      { name: "Oxford Formal Shirt", price: "500 EGP", img: "assets/classic1.jpg" },
-      { name: "Slim Black Trousers", price: "800 EGP", img: "assets/classic2.jpg" },
-      { name: "Premium Leather Shoes", price: "1,800 EGP", img: "assets/classic3.jpg" }
+      { name: "Oxford Formal Shirt", price: "500 EGP", img: "classic1.jpg" },
+      { name: "Slim Black Trousers", price: "800 EGP", img: "classic2.jpg" },
+      { name: "Premium Leather Shoes", price: "1,800 EGP", img: "classic3.jpg" }
     ]
   },
   street: {
@@ -78,9 +78,9 @@ const stylesData = {
     tags: ["Urban", "Graphic", "Oversized", "Bold", "Statement"],
     message: "You dress like a statement — we matched you with pieces that demand attention.",
     products: [
-      { name: "Graphic Hoodie", price: "600 EGP", img: "assets/street1.jpg" },
-      { name: "Wide Leg Cargo Pants", price: "850 EGP", img: "assets/street2.jpg" },
-      { name: "High-Top Boots", price: "1,600 EGP", img: "assets/street3.jpg" }
+      { name: "Graphic Hoodie", price: "600 EGP", img: "street1.jpg" },
+      { name: "Wide Leg Cargo Pants", price: "850 EGP", img: "street2.jpg" },
+      { name: "High-Top Boots", price: "1,600 EGP", img: "street3.jpg" }
     ]
   }
 };
